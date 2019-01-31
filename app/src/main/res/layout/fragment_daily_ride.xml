@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:context="f.ratnatech.yowapplication.fragment.DailyRideFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <android.support.v7.widget.CardView
+            android:id="@+id/idCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            app:cardCornerRadius="4dp"
+            android:padding="5dp">
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/recyclerview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+</android.support.v7.widget.RecyclerView>
+        </android.support.v7.widget.CardView>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+
+            android:layout_below="@+id/toolbar"
+            android:weightSum="2"
+            android:orientation="horizontal">
+           <!-- <Button
+                android:id="@+id/rideLaterBut"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="RIDE LATER "
+                android:textColor="@android:color/white"
+                android:textSize="12dp"
+                />-->
+            <Button
+                android:id="@+id/ridenowbut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+
+                android:layout_weight="1"
+                android:layout_marginLeft="2dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/rideshow"
+                android:textColor="@android:color/white"
+                android:textSize="12dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

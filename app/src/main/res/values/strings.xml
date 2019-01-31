@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">YOW</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="phone">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="forgot_string">Don’t worry! Just enter your email ID below
+and we’ll send you the password reset instructions.</string>
+    <string name="resetpassword">Reset Password</string>
+    <string name="next">Next</string>
+    <string name="submit">Submit</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="email">Email</string>
+    <string name="mobile">Mobile</string>
+    <string name="otp">Enter OTP</string>
+    <string name="changenumber">Change Number</string>
+    <string name="resendOtp">Resend Code</string>
+    <string name="rideshow">RIDE NOW</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home">YOW</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="Rs">\u20B9</string>
+    <string name="accept">ACCEPT &amp; BOOK</string>
+</resources>
